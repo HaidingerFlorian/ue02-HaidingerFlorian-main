@@ -8,7 +8,7 @@ Teil a: Die Funktion durchläuft das Array p[] von Index 0 bis m und prüft für
 Es wird eine Variable "firstTerm" verwendet um den ersten Ausdruck zu kennzeichnen und das korrekte Vorzeichen zu setzen. 
 Wenn firstTerm den Wert 1 hat (was zu Beginn der Fall ist), wird das Vorzeichen des ersten Ausdrucks nicht ausgegeben. Nach dem ersten Ausdruck wird firstTerm auf 0 gesetzt, um sicherzustellen, dass für alle nachfolgenden Ausdrücke das Vorzeichen korrekt gesetzt wird.
 
-Teil b: 
+Teil b:
 Die Funktion verwendet das Horner Shema verwendet, um das Polynom effizient zu evaluieren. Dabei beginnt man mit dem höchsten Grad des Polynoms, multipliziert das bisherige Ergebnis mit x und addiert den nächsten Koeffizienten. Dies wird solange wiederholt, bis alle Koeffizienten verarbeitet wurden. 
 
 Teil c:
